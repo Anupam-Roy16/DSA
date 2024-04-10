@@ -34,7 +34,7 @@ class sort:
         print(array)
 
 
-    #left is sorted and right unsorted. those value in left(sorted ) who are smaller then right val(unsorted) in loop  are gone 1 room right and then right val is paste his position
+    #left is sorted and right unsorted. those value in left(sorted ) who are bigger then right val(unsorted) in loop  are gone 1 room right and then right val is paste his position
     def insertion_sort(self):
         self.array = array
         length = len(array)
